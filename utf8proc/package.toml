@@ -11,4 +11,4 @@ runtime = [""]
 build = [""]
 
 [build]
-system = make
+system = "make"

@@ -11,4 +11,4 @@ runtime = ["fontconfig", "freetype", "pixman", "xkbcommon", "fcft"]
 build = ["ncurses", "tllist"]
 
 [build]
-system = meson
+system = "meson"
