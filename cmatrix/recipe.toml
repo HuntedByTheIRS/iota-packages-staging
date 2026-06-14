@@ -1,5 +1,5 @@
 [recipe]
-intepreter = "sh"
+interpreter = "sh"
 
 [[step]]
 run = "./configure"

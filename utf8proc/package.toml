@@ -1,0 +1,14 @@
+name = "utf8proc"
+version = "2.11.3"
+description = "Clean C library that provides unicode normalization, case folding, etc"
+
+[source]
+url = "https://github.com/JuliaStrings/utf8proc/releases/download/v2.11.3/utf8proc-2.11.3.tar.gz"
+sha256 = ""
+
+[dependencies]
+runtime = [""]
+build = [""]
+
+[build]
+system = make

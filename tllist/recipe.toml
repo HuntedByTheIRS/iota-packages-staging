@@ -1,0 +1,13 @@
+interpreter = "sh"
+
+[[step]]
+run = "mkdir build && cd build"
+
+[[step]]
+run = "meson --prefix=/usr --buildtype=release .."
+
+[[step]]
+run = "ninja"
+
+[[step]]
+run = "ninja install"

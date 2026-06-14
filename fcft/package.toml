@@ -1,0 +1,14 @@
+name = "fcft"
+version = "3.3.3"
+description = "Font and glyph rasterisation library"
+
+[source]
+url = "https://codeberg.org/dnkl/fcft/releases/download/3.3.3/fcft-3.3.3.tar.gz"
+sha256 = ""
+
+[dependencies]
+runtime = ["fontconfig", "freetype", "tllist", "pixman", "utf8proc"]
+build = [""]
+
+[build]
+system = "ninja"
