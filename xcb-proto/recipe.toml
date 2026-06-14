@@ -1,0 +1,8 @@
+[recipe]
+interpreter = "sh"
+
+[[step]]
+run = "PYTHON=python3 ./configure $XORG_CONFIG"
+
+[[step]]
+run = "sudo make install || doas make install"

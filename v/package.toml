@@ -7,7 +7,7 @@ url = "https://github.com/vlang/v/archive/refs/tags/0.5.1.tar.gz"
 sha256 = "444f20a77b57fec8a4e8a31fb2d50c318d277fe8377e0c870c2087395c0de810"
 
 [dependencies]
-runtime = ["openssl", "glibc"]
+runtime = ["openssl"]
 build = ["tcc", "make", "git"]
 
 [build]

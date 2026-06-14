@@ -1,0 +1,14 @@
+[recipe]
+interpreter = "sh"
+
+[[step]]
+run = "export XORG_PREFIX=\"/usr\""
+
+[[step]]
+run = "export XORG_CONFIG=\"--prefix=$XORG_PREFIX --sysconfdir=/etc --localstatedir=/var --disable-static\""
+
+[[step]]
+run = "doas printf 'XORG_PREFIX=\"%s\"\nXORG_CONFIG=\"--prefix=%s --sysconfdir=/etc --localstatedir=/var --disable-static\"\nexport XORG_PREFIX XORG_CONFIG\\n' \"$XORG_PREFIX\" \"$XORG_PREFIX\" > /etc/profile.d/xorg.sh"
+
+[[step]]
+run = "doas chmod 644 /etc/profile.d/xorg.sh"

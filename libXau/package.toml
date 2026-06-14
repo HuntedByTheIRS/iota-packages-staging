@@ -1,0 +1,14 @@
+name = "libXau"
+version = "1.0.12"
+description = " The libXau package contains a library implementing the X11 Authorization Protocol."
+
+[source]
+url = "https://www.x.org/pub/individual/lib/libXau-1.0.12.tar.xz"
+sha256 = "74d0e4dfa3d39ad8939e99bda37f5967aba528211076828464d2777d477fc0fb"
+
+[dependencies]
+runtime = [""]
+build = ["xorgproto"]
+
+[build]
+system = "autotools"

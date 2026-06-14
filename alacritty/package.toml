@@ -1,0 +1,14 @@
+name = "alacritty"
+version = "0.17.0"
+description = "A cross-platform, OpenGL terminal emulator."
+
+[source]
+url = "https://github.com/alacritty/alacritty/archive/refs/tags/v0.17.0.tar.gz"
+sha256 = "38d6527d346cda5c6049332a1f3338a89ea66cd7981b54d4c3ce801b392496f8"
+
+[dependencies]
+runtime = [""]
+build = ["rust", "fontconfig", "freetype", "libxcb", "libxkbcommon"]
+
+[build]
+system = "cargo"
