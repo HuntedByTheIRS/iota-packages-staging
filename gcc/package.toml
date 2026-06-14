@@ -1,0 +1,14 @@
+name = "gcc"
+version = "16.1.0"
+description = "The GNU Compiler Collection includes front ends for C, C++, Objective-C, Objective-C++, Fortran, Ada, Go, D, Modula-2, COBOL, Rust, and Algol 68 as well as libraries for these languages (libstdc++,...). GCC was originally written as the compiler for the GNU operating system. The GNU system was developed to be 100% free software, free in the sense that it respects the user's freedom."
+
+[source]
+url = "https://mirrorservice.org/sites/sourceware.org/pub/gcc/releases/gcc-16.1.0/gcc-16.1.0.tar.xz"
+sha256 = "50efb4d94c3397aff3b0d61a5abd748b4dd31d9d3f2ab7be05b171d36a510f79"
+
+[dependencies]
+runtime = []
+build = []
+
+[build]
+system = "make"
