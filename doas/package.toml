@@ -1,0 +1,14 @@
+name = "doas"
+version = "6.8.2"
+description = "A portable fork of the OpenBSD `doas` command "
+
+[source]
+url = "https://github.com/Duncaen/OpenDoas/archive/refs/tags/v6.8.2.tar.gz"
+sha256 = ""
+
+[dependencies]
+runtime = []
+dependencies = []
+
+[build]
+system = "make"
