@@ -1,4 +1,4 @@
-ZereneOS staging branch for packages
+staging / main branch packages for iota, the zerene OS package manager.
 
-
-i dont reccomend installing quite literally anything from here
+This is the main repository used by iota
+Any other repository claiming to ve the official is larping
