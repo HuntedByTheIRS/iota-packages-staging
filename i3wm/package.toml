@@ -1,0 +1,14 @@
+name = "i3wm"
+version = "4.25.1"
+description = "Simple tilling X11 window manager"
+
+[source]
+src = "https://i3wm.org/downloads/i3-4.25.1.tar.xz"
+sha256 = ""
+
+[dependencies]
+runtime = [""]
+build = [ "pkgconf", "libXau", "libxcb", "libxkbcommon",  "libev", "yajl", "asciidoc", "xmlto", "perl-pod-simple", "docbook-xml", "pcre", "libstartup-notification", "pango", "cairo"]
+
+[build]
+system = "meson"
