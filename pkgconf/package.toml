@@ -1,0 +1,14 @@
+name = "pkgconf"
+version = "2.5.1"
+description = "pkg-config alternative"
+
+[source]
+url = "https://github.com/pkgconf/pkgconf/archive/refs/tags/pkgconf-2.5.1.tar.gz"
+sha256 = ""
+
+[dependencies]
+runtime = [""]
+build = [""]
+
+[build]
+system = "meson"

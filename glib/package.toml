@@ -1,0 +1,14 @@
+[package]
+name = "glib"
+version = "2.88.1"
+description = "Low-level libraries useful for providing data structure handling for C"
+
+[source]
+src = "https://download.gnome.org/sources/glib/2.88/glib-2.88.1.tar.xz"
+sha256 = "51ab804c56f6eab3e5045c774d1290ac5e4c923d4f9a3d8e33123bee45c1840e"
+
+[dependencies]
+deps = ["docutils", "libxslt"]
+
+[build]
+system = "meson"
