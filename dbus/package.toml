@@ -1,0 +1,14 @@
+[package]
+name = "dbus"
+version = "1.13.14"
+description = "dbus"
+
+[source]
+url = "https://github.com/d-bus/dbus/archive/refs/tags/dbus-1.13.14.tar.gz"
+sha256 = "6a1e6e36fdcc3a04a5e95d2d13fb6f53e1c75791b3f97f292e2958dc413b8c3b"
+
+[dependencies]
+deps = [""]
+
+[build]
+system = "meson"
