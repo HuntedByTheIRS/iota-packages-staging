@@ -10,4 +10,4 @@ deps = [""]
 
 [build]
 system = "autotools"
-configure_flags = ["--prefix=/usr". "--disable-static"]
+configure_flags = ["--prefix=/usr", "--disable-static"]
