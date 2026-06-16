@@ -1,0 +1,15 @@
+[package]
+name = "wayland"                   #  Package name. Used as identifier everywhere.
+version = "1.25"               #  Version string. Shown in state and peek output.
+description = "wayland"        #  Human-readable description. Optional.
+
+[source]
+url = "https://gitlab.freedesktop.org/wayland/wayland-protocols/-/releases/1.49/downloads/wayland-protocols-1.49.tar.xz"                  
+sha256 = "ec4c8f74942d6dff7ace8b4ce4764f0ef9ff618a935d974ea77edee2ad240b14"
+
+[dependencies]
+deps = ["libxml"]    
+
+[build]
+system = "meson"            #  Build system: "autotools", "cmake", "meson", "make", "cargo".
+                                #            Ignored when `script` is set or when a recipe.toml exists.
