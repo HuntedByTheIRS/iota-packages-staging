@@ -11,4 +11,4 @@ deps = ["libxml2"]
 
 [build]
 system = "autotools"
-configure_flags = ["--prefix=/usr", "--disable-static", "--without-python", "&& make"]
+configure_flags = ["--prefix=/usr", "--disable-static", "--without-python"]
