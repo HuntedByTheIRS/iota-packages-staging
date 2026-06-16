@@ -13,10 +13,9 @@ build = [
 	"libxkbcommon"
 	"pango"
 	"libstartup-notification"
-	"xcb-util-xrm"
-	"xorg-libraries"
 	"yajl"
-] # ommited asciidoc and xmlto since the tarball *should* have pregenerated documentation (hopefully)
+	"asylum"
+] # omitted asciidoc and xmlto since the tarball *should* have pregenerated documentation (hopefully)
 
 [build]
 system = "meson"
