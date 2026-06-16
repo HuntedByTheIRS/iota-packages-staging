@@ -3,7 +3,7 @@ version = "c23"
 description = "38 xorg libraries"
 
 [source]
-url = "https://codeberg.org/limforge/noorfetch/archive/main.tar.gz"
+url = "nan"
 sha256 = ""
 
 [dependencies]

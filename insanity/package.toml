@@ -3,7 +3,7 @@ version = "-1"
 description = "the worst possible fucking way to setup a xorg build env i fucking hate this display manager"
 
 [source]
-url = "https://codeberg.org/limforge/noorfetch/archive/main.tar.gz"
+url = "nan"
 sha256 = ""
 
 [dependencies]

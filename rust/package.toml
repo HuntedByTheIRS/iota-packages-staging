@@ -3,7 +3,7 @@ version = "1.96"
 description = "A language empowering everyone to build reliable and efficient software. "
 
 [source]
-url = "https://codeberg.org/limforge/noorfetch/archive/main.tar.gz"
+url = "nan"
 sha256 = ""
 
 [dependencies]
