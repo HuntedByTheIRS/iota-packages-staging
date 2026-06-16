@@ -1,4 +1,4 @@
-nme = "nvidia"
+name = "nvidia"
 version = "610.43.02"
 descriptions = "Linux x64 (AMD64/EM64T) Display Driver 610.43.02 | Linux 64-bit "
 
