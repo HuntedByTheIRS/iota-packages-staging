@@ -1,0 +1,15 @@
+[package]
+name = "libxcb-util"
+version = "0.4.1"
+description = "Additional extensions to the XCB library"
+
+[source]
+src = "https://xcb.freedesktop.org/dist/xcb-util-0.4.1.tar.xz"
+sha256 = "5abe3bbbd8e54f0fa3ec945291b7e8fa8cfd3cccc43718f8758430f94126e512"
+
+[dependencies]
+deps = ["libxcb"]
+
+[build]
+system = "autotools"
+configure_flags = ["$XORG_CONFIG"]
