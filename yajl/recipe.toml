@@ -1,10 +1,4 @@
-interpreter = "sh"
-
-[[step]]
-run = "curl https://gitweb.gentoo.org/repo/gentoo.git/plain/dev-libs/yajl/files/yajl-2.1.0-cmake-4.patch -o cmake-4-patch.patch" # might have to request a native patch feature into iota
-[[step]]
-run = "patch < cmake-4-patch.patch"
-[[step]]
-run = "./configure"
-[[step]]
-run = "sudo make install || doas make install"
+curl https://gitweb.gentoo.org/repo/gentoo.git/plain/dev-libs/yajl/files/yajl-2.1.0-cmake-4.patch -o cmake-4-patch.patch
+patch < cmake-4-patch.patch
+./configure
+sudo make install || doas make install

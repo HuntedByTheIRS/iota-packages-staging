@@ -1,3 +1,4 @@
+[package]
 name = "cmatrix"
 version = "2.0"
 description = "Terminal based \"The Matrix\" like implementation "
@@ -7,8 +8,7 @@ url = "https://github.com/abishekvashok/cmatrix/archive/refs/tags/v2.0.tar.gz"
 sha256 = "ad93ba39acd383696ab6a9ebbed1259ecf2d3cf9f49d6b97038c66f80749e99a"
 
 [dependencies]
-runtime = []
-build = []
+deps = []
 
 [build]
-system = "make"
+system = "autotools"

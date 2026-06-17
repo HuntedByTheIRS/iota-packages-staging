@@ -1,14 +1,14 @@
+[package]
 name = "xkeyboardconfig"
 version = "2.47"
-description = "The XKeyboardConfig package contains the keyboard configuration database for the X Window System. "
+description = "The XKeyboardConfig package contains the keyboard configuration database for the X Window System."
 
 [source]
 url = "https://www.x.org/pub/individual/data/xkeyboard-config/xkeyboard-config-2.47.tar.xz"
 sha256 = "e59984416a72d58b46a52bfec1b1361aa7d84354628227ee2783626c7a6db6b6"
 
 [dependencies]
-runtime = [""]
-build = ["asylum"]
+deps = ["xorg-libraries"]
 
 [build]
 system = "autotools"

@@ -1,15 +1,14 @@
 [package]
-name = "libxml"                   #  Package name. Used as identifier everywhere.
-version = "2.15.1"               #  Version string. Shown in state and peek output.
-description = "libxml"        #  Human-readable description. Optional.
+name = "libxml"
+version = "2.15.1"
+description = "libxml"
 
 [source]
-url = "https://web.archive.org/web/20260210061134/https://download.gnome.org/sources/libxml2/2.15/libxml2-2.15.1.tar.xz"                     #  **Required** (unless nan) (now supports .git repositories)
-sha256 = "1e3badd1d32fd19ebe4526124b6ca3876f2fa88914b4f05f07cc8ba5fe31ddbb"            #  SHA-256 hex digest for integrity check. **Semi-forced** — see above.
+url = "https://download.gnome.org/sources/libxml2/2.15/libxml2-2.15.1.tar.xz"
+sha256 = "1e3badd1d32fd19ebe4526124b6ca3876f2fa88914b4f05f07cc8ba5fe31ddbb"
 
 [dependencies]
-deps = []      #  Unified dependency list. **NEW — preferred.**
+deps = []
 
 [build]
-system = "meson"            #  Build system: "autotools", "cmake", "meson", "make", "cargo".
-                                #            Ignored when `script` is set or when a recipe.toml exists.
+system = "meson"

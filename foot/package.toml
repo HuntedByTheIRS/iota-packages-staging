@@ -1,14 +1,14 @@
+[package]
 name = "foot"
 version = "1.27.0"
 description = "Simple wayland terminal"
 
 [source]
 url = "https://codeberg.org/dnkl/foot/archive/1.27.0.tar.gz"
-sha256 = ""
+sha256 = "4e6131cc859ec6a36569f1978cf3617cc3836a681d13d228ded1b4885dab7770"
 
 [dependencies]
-runtime = ["fontconfig", "freetype", "pixman", "xkbcommon", "fcft"]
-build = ["ncurses", "tllist"]
+deps = ["fontconfig", "freetype", "pixman", "xkbcommon", "fcft", "ncurses", "tllist"]
 
 [build]
 system = "meson"

@@ -1,3 +1,4 @@
+[package]
 name = "libxkbcommon"
 version = "1.13.2"
 description = "libxkbcommon is a keymap compiler and support library which processes a reduced subset of keymaps as defined by the XKB specification. "
@@ -7,8 +8,7 @@ url = "https://github.com/lfs-book/libxkbcommon/archive/v1.13.2/libxkbcommon-1.1
 sha256 = "e5d5eff0ea09d82c44a96aec75c719b6969fdc602da82e6b1c9aa74cac5fd488"
 
 [dependencies]
-runtime = [""]
-build = ["xkeyboardconfig"]
+deps = ["xkeyboardconfig"]
 
 [build]
 system = "autotools"

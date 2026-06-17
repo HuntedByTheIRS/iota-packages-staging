@@ -1,4 +1,5 @@
-name = "asylum"
+[package]
+name = "xorg-libraries"
 version = "c23"
 description = "38 xorg libraries"
 
@@ -7,8 +8,7 @@ url = "nan"
 sha256 = ""
 
 [dependencies]
-runtime = [""]
-build = [""]
+deps = [""]
 
 [build]
 system = "cmake"

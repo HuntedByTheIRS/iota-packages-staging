@@ -1,17 +1,5 @@
-[recipe]
-intepreter = "sh"
-
-[[step]]
-run = "mkdir build"
-
-[[step]]
-run = "cd build"
-
-[[step]]
-run = "meson setup --prefix=$XORG_PREFIX .."
-
-[[step]]
-run = "ninja"
-
-[[step]]
-run = "ninja install"
+mkdir build
+cd build
+meson setup --prefix=$XORG_PREFIX ..
+ninja
+ninja install
