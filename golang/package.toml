@@ -1,0 +1,12 @@
+[package]
+name = "golang"
+version = "1.26.4"
+description = "Go toolchain & compiler"
+
+[source]
+src = "nan"
+sha256 = ""
+
+[dependencies]
+deps = []
+
