@@ -1,0 +1,15 @@
+[package]
+name = "ffmpeg"                   #  Package name. Used as identifier everywhere.
+version = "n7.1.4"               #  Version string. Shown in state and peek output.
+description = "Essential tool for many video applications"        
+
+[source]
+url = "https://ffmpeg.org/releases/ffmpeg-8.1.1.tar.xz"           
+sha256 = "e045ac47d8eec15397ad22e0a8712e8537fb3d601956217ccc74f5ba60e17654"            
+
+[dependencies]
+deps = []      
+
+[build]
+system = "autotools"            #  Build system: "autotools", "cmake", "meson", "make", "cargo".
+configure_flags = ["--foo"]     #  Extra flags for ./configure (autotools only). Optional.
