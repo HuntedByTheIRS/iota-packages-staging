@@ -7,8 +7,7 @@ url = "nan"
 sha256 = ""
 
 [dependencies]
-runtime = []
-build = []
+deps = [""]
 
 [build]
 script = "curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh"

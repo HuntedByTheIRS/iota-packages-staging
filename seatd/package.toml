@@ -1,14 +1,14 @@
 [package]
-name = "seatd"                   #  Package name. Used as identifier everywhere.
-version = "0.9.3"               #  Version string. Shown in state and peek output.
-description = "seatd"        #  Human-readable description. Optional.
+name = "seatd"
+version = "0.9.3"
+description = "seatd"
 
 [source]
-url = "https://git.sr.ht/~kennylevinsen/seatd/archive/0.9.3.tar.gz"                     #  **Required** (unless nan) (now supports .git repositories)
-sha256 = "302564d54d8e28191fadfd734f2675ecb0c9e0615a58011b89ef15dfa4dbaa96"            #  SHA-256 hex digest for integrity check. **Semi-forced** — see above.
+url = "https://git.sr.ht/~kennylevinsen/seatd/archive/0.9.3.tar.gz"
+sha256 = "302564d54d8e28191fadfd734f2675ecb0c9e0615a58011b89ef15dfa4dbaa96"
 
 [dependencies]
-deps = []      #  Unified dependency list. **NEW — preferred.**
+deps = []
 
 [build]
-system = "meson"            #  Build system: "autotools", "cmake", "meson", "make", "cargo".
+system = "meson"

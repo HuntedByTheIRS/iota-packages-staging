@@ -1,3 +1,4 @@
+[package]
 name = "util-macros"
 version = "1.20.2"
 description = "The util-macros package contains the m4 macros used by all of the Xorg packages. "
@@ -7,8 +8,7 @@ url = "https://www.x.org/pub/individual/util/util-macros-1.20.2.tar.xz"
 sha256 = "9ac269eba24f672d7d7b3574e4be5f333d13f04a7712303b1821b2a51ac82e8e"
 
 [dependencies]
-runtime = [""]
-build = ["insanity"]
+deps = ["insanity"]
 
 [build]
 system = "autotools"

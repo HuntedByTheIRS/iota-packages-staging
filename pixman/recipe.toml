@@ -1,11 +1,3 @@
-[recipe]
-interpreter = "sh"
-
-[[step]]
-run = "meson setup build/"
-
-[[step]]
-run = "ninja -C build"
-
-[[step]]
-run = "sudo ninja -C build install || doas make install"
+meson setup build/
+ninja -C build
+sudo ninja -C build install || doas make install
