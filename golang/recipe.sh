@@ -2,7 +2,7 @@ set -euo pipefail
 checksum="1153d3d50e0ac764b447adfe05c2bcf08e889d42a02e0fe0259bd47f6733ad7f  go1.26.4.linux-amd64.tar.gz"
 # test for preexisting go installation
 if [ -d /usr/local/go ]
-	echo "Go installation detected. Deleting now..."
+	echo "Go installation detected. Reinstalling now..."
 	rm -rf /usr/local/go
 fi
 
