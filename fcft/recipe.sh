@@ -1,3 +1,3 @@
 meson build --buildtype=release
-ninja -c build
-sudo ninja -C build install || doas ninja -C build install
+ninja -c build -j $IOTA_SUPERUSER
+$IOTA_SUPERUSER ninja -C build install
