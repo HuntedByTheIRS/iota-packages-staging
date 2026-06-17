@@ -1,3 +1,3 @@
 ./configure
-make -j4
+make -j$JOBOPTS
 sudo make install
