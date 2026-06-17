@@ -8,7 +8,7 @@ url = "https://download.savannah.gnu.org/releases/freetype/freetype-doc-2.14.3.t
 sha256 = "66a988d8bbb58f83efafe555678ac172f70f0b060cf61424fe5460157470fd21"
 
 [dependencies]
-deps = ["gcc"]
+deps = []
 
 [build]
 system = "autotools"

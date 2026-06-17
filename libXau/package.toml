@@ -12,3 +12,4 @@ deps = ["xorgproto"]
 
 [build]
 system = "autotools"
+configure_flags = "$XORG_CONFIG"

@@ -12,3 +12,4 @@ deps = ["freetype"]
 
 [build]
 system = "autotools"
+configure_flag = ["--sysconfdir=/etc", "--localstatedir=/var", "--disable-docs"]
