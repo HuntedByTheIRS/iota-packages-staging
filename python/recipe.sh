@@ -1,5 +1,5 @@
 ./configure --enable-optimizations
-make
+make -j$JOBOPTS
 # install pip
 ./python -m ensurepip
 $IOTA_SUPERUSER make install
