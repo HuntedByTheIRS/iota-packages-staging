@@ -1,0 +1,14 @@
+[package]
+name = "xorgproto"
+version = "0.17.0"
+description = "The xorgproto package provides the header files required to build the X Window system, and to allow other applications to build against the installed X Window system. "
+
+[source]
+url = "https://xorg.freedesktop.org/archive/individual/proto/xorgproto-2025.1.tar.xz"
+sha256 = "56898c716c0578df8a2d828c9c3e5c528277705c0484381a81960fe1a67668e8"
+
+[dependencies]
+deps = ["util-macros"]
+
+[build]
+system = "meson"

@@ -1,0 +1,14 @@
+[package]
+name = "lazydocker"
+version = "0.25.2"
+description = " The lazier way to manage everything docker"
+
+[source]
+url = "https://github.com/jesseduffield/lazydocker/archive/refs/tags/v0.25.2.tar.gz"
+sha256 = "405071220e5be9aa061c65d290e0347143b73ae0a3cc01df164f0105de2b53c4"
+
+[dependencies]
+deps = ["golang"]
+
+[build]
+system = "autotools"

@@ -1,0 +1,13 @@
+name = "rust"
+version = "1.96"
+description = "A language empowering everyone to build reliable and efficient software. "
+
+[source]
+url = "nan"
+sha256 = ""
+
+[dependencies]
+deps = [""]
+
+[build]
+script = "curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh"

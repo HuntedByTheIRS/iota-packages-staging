@@ -1,0 +1,14 @@
+[package]
+name = "starship"
+version = "1.25.1"
+description = "The minimal, blazing-fast, and infinitely customizable prompt for any shell!"
+
+[source]
+url = "https://github.com/starship/starship/archive/refs/tags/v1.25.1.tar.gz"
+sha256 = "521306b14066ee7e332d998ef5b5b6455fdc6085c52e86b6316a7cdc37bae1d8"
+
+[dependencies]
+deps = []
+
+[build]
+system = "cargo"

@@ -1,0 +1,14 @@
+[package]
+name = "xorg-libraries"
+version = "c23"
+description = "38 xorg libraries"
+
+[source]
+url = "nan"
+sha256 = ""
+
+[dependencies]
+deps = [""]
+
+[build]
+system = "cmake"

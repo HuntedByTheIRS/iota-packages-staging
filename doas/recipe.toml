@@ -1,9 +1,0 @@
-[recipe]
-interpreter = "sh"
-
-[[step]]
-run = """
-./configure
-make -j4
-sudo make install
-"""

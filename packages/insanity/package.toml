@@ -1,0 +1,14 @@
+[package]
+name = "insanity"
+version = "-1"
+description = "the worst possible fucking way to setup a xorg build env i fucking hate this display manager"
+
+[source]
+url = "nan"
+sha256 = ""
+
+[dependencies]
+deps = ""
+
+[build]
+system = "cmake"

@@ -1,4 +1,7 @@
-staging / main branch packages for iota, the zerene OS package manager.
+Main branch of packages for the Installation and Orchestration Through Automation package manager.
 
-This is the main repository used by iota
-Any other repository claiming to ve the official is larping
+(Commonly reffered to as iota)
+
+THIS IS THE OFFICIAL REPOSITORY AND IS LINKED BY ZERENEOS.ORG
+
+ANY OTHER REPOSITORY CLAIMING TO BE THE OFFICIAL ONE IS FRAUD.
