@@ -1,0 +1,21 @@
+[package]
+name = "curl"                   #  Package name. Used as identifier everywhere.
+version = "8.0.1"               #  Version string. Shown in state and peek output.
+description = "URL tool"        #  Human-readable description. Optional.
+
+[source]
+url = "..."                     #  **Required** (unless nan) (now supports .git repositories)
+sha256 = "abc123..."            #  SHA-256 hex digest for integrity check. **Semi-forced** — see above.
+
+[dependencies]
+deps = ["openssl", "zlib"]      #  Unified dependency list. **NEW — preferred.**
+# runtime = [...]               #  **DEPRECATED** — merged into `deps` with a warning.
+# build = [...]                 #  **DEPRECATED** — merged into `deps` with a warning.
+
+[build]
+system = "autotools"            #  Build system: "autotools", "cmake", "meson", "make", "cargo".
+                                #            Ignored when `script` is set or when a recipe.toml exists.
+configure_flags = ["--foo"]     #  Extra flags for ./configure (autotools only). Optional.
+# script = "make && make install" #  Inline build script. Uses template substitution — see below.
+                                #            When set, overrides `system`. Optional.
+                                #                     **DEPRECATED**
