@@ -1,11 +1,11 @@
 [package]
 name = "doit"
-version = "0.0.2"
+version = "0.0.3"
 description = "doit is a setuid-root binary that allows authorized users to execute commands as root, controlled by /etc/doit.conf"
 
 [source]
-url = "https://github.com/HuntedByTheIRS/doit/archive/refs/tags/0.0.2.tar.gz"
-sha256 = "42e47cfe83d3f9ef03427633d62bc7fb1feefc888a746cd87d56fdd1473b92d5"
+url = "https://github.com/HuntedByTheIRS/doit/archive/refs/tags/0.0.3.tar.gz"
+sha256 = "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed"
 
 [dependencies]
 deps = ["rust"]
