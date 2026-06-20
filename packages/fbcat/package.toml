@@ -1,0 +1,14 @@
+[package]
+name = "fbcat"
+version = "0.5.2"
+description = "Linux framebuffer screenshot utility. Installs fbcat and fbgrab"
+
+[source]
+url = "https://github.com/jwilk/fbcat/releases/download/0.5.2/fbcat-0.5.2.tar.gz"
+sha256 = "062ebd198814666bd1672ffadf2c820c344fc003d6e164ec968fac233b70061f"
+
+[dependences]
+deps = []
+
+[build]
+system = "make"
