@@ -1,0 +1,14 @@
+[package]
+name = "imagemagick"
+version = "7.1.2-25"
+description = "Command line image editing tool"
+
+[source]
+url = "https://github.com/ImageMagick/ImageMagick/archive/refs/tags/7.1.2-25.tar.gz"
+sha256 = "ff33d227d2e1744327280e956ec9f7abaebbd8f48277d16cdad906e05e4794b6"
+
+[dependencies]
+deps = [""]
+
+[build]
+system = "autotools"

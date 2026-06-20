@@ -12,3 +12,4 @@ deps = [""]
 
 [build]
 system = "autotools"
+compile_flags = ["--enable-overwrite"]

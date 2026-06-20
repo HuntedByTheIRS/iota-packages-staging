@@ -1,0 +1,14 @@
+[package]
+name = "gh"
+version = "2.95.0"
+description = "GitHub Cli"
+
+[source]
+url = "https://github.com/cli/cli/archive/refs/tags/v2.95.0.tar.gz"
+sha256 = "b6a1c88cbd15f49f60a68d210a117a60b349bcb0d028a0dca0ef2d9dc92bd028"
+
+[dependencies]
+deps = ["golang"]
+
+[build]
+system = "make"
