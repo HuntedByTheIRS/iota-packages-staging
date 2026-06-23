@@ -1,0 +1,13 @@
+[package]
+name = "sl"
+version = "5.0.2"
+
+[source]
+url = "https://github.com/eyJhb/sl/archive/refs/heads/master.tar.gz"
+sha256 = "0f593238260d76515a3b0abca71614120fd1b8a34d373d0203d2ca19c8a7e3a2"
+
+[dependencies]
+deps = ["ncurses"]
+
+[build]
+system = "make"
