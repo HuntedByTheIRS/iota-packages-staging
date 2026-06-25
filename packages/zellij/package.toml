@@ -1,0 +1,13 @@
+[package]
+name = "zellij"
+version = "0.44.3"
+description = "Terminal Multipexer written in Rust"
+
+[source]
+url = "https://github.com/zellij-org/zellij/archive/refs/tags/v0.44.3.tar.gz"
+sha256= "33ae61fc802b59462fed49b424893596d3aa819646bdce53d5602f714c1264fe"
+[dependencies]
+deps = []
+
+[build]
+system = "cargo"
