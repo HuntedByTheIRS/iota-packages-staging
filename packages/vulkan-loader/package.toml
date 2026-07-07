@@ -1,0 +1,14 @@
+[package]
+name = "vulkan-loader"
+version = "1.4.356"
+description = "Vulkan ICD loader"
+
+[source]
+url = "https://github.com/KhronosGroup/Vulkan-Loader/archive/refs/tags/v1.4.356.tar.gz"
+sha256 = "4e5449c83c34e9166fb11dfd59a8ceda1512cae3565e8c1f821cbabab812efdb"
+
+[dependencies]
+deps = ["libdrm","wayland"]
+
+[build]
+system = "cmake"

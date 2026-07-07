@@ -1,0 +1,14 @@
+[package]
+name = "coreutils"
+version = "9.11"
+description = "GNU core utilities (ls, cp, mv, rm, cat, etc.)"
+
+[source]
+url = "https://ftp.gnu.org/gnu/coreutils/coreutils-9.11.tar.xz"
+sha256 = "394024eda0a5955217ceda9cd1201e65dc8fa3aa29c2951135a49521d57c3cc3"
+
+[dependencies]
+deps = []
+
+[build]
+system = "autotools"

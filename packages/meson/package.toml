@@ -1,0 +1,14 @@
+[package]
+name = "meson"
+version = "1.7.0"
+description = "Fast and user-friendly build system"
+
+[source]
+url = "https://github.com/mesonbuild/meson/releases/download/1.7.0/meson-1.7.0.tar.gz"
+sha256 = "08efbe84803eed07f863b05092d653a9d348f7038761d900412fddf56deb0284"
+
+[dependencies]
+deps = ["python", "ninja"]
+
+[build]
+system = "make"

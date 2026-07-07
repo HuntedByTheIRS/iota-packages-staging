@@ -1,0 +1,14 @@
+[package]
+name = "llvm-20"
+version = "20.1.8"
+description = "LLVM compiler infrastructure + Clang"
+
+[source]
+url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-20.1.8/llvm-project-20.1.8.src.tar.xz"
+sha256 = "922f1817a0df7b1489272d18134ee0087a8b068828f87ac63b9861b1a9965888"
+
+[dependencies]
+deps = ["zlib","ncurses","libxml"]
+
+[build]
+system = "cmake"

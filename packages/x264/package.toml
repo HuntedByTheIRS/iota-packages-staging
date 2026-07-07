@@ -1,0 +1,14 @@
+[package]
+name = "x264"
+version = "r3222"
+description = "H.264/AVC video encoder"
+
+[source]
+url = "https://code.videolan.org/videolan/x264/-/archive/stable/x264-stable.tar.gz"
+sha256 = "SKIP"
+
+[dependencies]
+deps = []
+
+[build]
+system = "make"

@@ -1,0 +1,14 @@
+[package]
+name = "patchelf"
+version = "0.19.1"
+description = "Small utility to modify the dynamic linker and RPATH of ELF executables"
+
+[source]
+url = "https://github.com/NixOS/patchelf/releases/download/0.19.1/patchelf-0.19.1.tar.gz"
+sha256 = "491108728f120ce05b539934b41a750235031a6df8abc6b47e57aff7de15094d"
+
+[dependencies]
+deps = []
+
+[build]
+system = "autotools"

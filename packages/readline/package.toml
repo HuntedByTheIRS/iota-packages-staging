@@ -1,0 +1,14 @@
+[package]
+name = "readline"
+version = "8.3"
+description = "GNU Readline — line-editing and history library"
+
+[source]
+url = "https://ftp.gnu.org/gnu/readline/readline-8.3.tar.gz"
+sha256 = "fe5383204467828cd495ee8d1d3c037a7eba1389c22bc6a041f627976f9061cc"
+
+[dependencies]
+deps = ["ncurses"]
+
+[build]
+system = "autotools"

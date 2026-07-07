@@ -1,0 +1,14 @@
+[package]
+name = "git"
+version = "2.55.0"
+description = "Distributed version control system"
+
+[source]
+url = "https://github.com/git/git/archive/refs/tags/v2.55.0.tar.gz"
+sha256 = "72923418db7b26dfddc21e2268660c5118e560bdfaa09b4489b67b38e9b69c49"
+
+[dependencies]
+deps = ["zlib", "openssl", "expat", "ncurses"]
+
+[build]
+system = "make"

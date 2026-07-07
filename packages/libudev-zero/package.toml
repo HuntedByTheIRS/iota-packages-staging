@@ -1,0 +1,14 @@
+[package]
+name = "libudev-zero"
+version = "1.0.4"
+description = "Daemonless drop-in replacement for libudev — provides libudev.pc, libudev.so.1, libudev.h"
+
+[source]
+url = "https://github.com/illiliti/libudev-zero/archive/refs/tags/1.0.4.tar.gz"
+sha256 = "10148cfd6047d387bf71eca72cd19c177084224d96434a118d8def6e0a3d6316"
+
+[dependencies]
+deps = []
+
+[build]
+system = "make"

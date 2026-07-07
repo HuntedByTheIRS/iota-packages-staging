@@ -1,0 +1,14 @@
+[package]
+name = "libffi"
+version = "3.6.0"
+description = "Foreign Function Interface library"
+
+[source]
+url = "https://github.com/libffi/libffi/releases/download/v3.6.0/libffi-3.6.0.tar.gz"
+sha256 = "31ff1fe32deaebfbb388727f32677bb254bf2a41382c51464c0b1837c9ee9828"
+
+[dependencies]
+deps = []
+
+[build]
+system = "autotools"

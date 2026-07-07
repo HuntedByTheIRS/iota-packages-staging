@@ -1,0 +1,25 @@
+[package]
+name = "xwayland"
+version = "24.1.12"
+description = "Standalone X server running under Wayland — provides xwayland.pc for wlroots"
+
+[source]
+url = "https://www.x.org/pub/individual/xserver/xwayland-24.1.12.tar.xz"
+sha256 = "6df02c511b92c1b9848734d9d1b03a4c24f8375ba3cada44e9684a21b5f78e21"
+
+[dependencies]
+deps = [
+    "libxcvt",
+    "pixman",
+    "wayland",
+    "wayland-protocols",
+    "libdrm",
+    "xorg-libraries",
+    "xorgproto",
+    "xorg-server",
+    "mesa",
+    "openssl",
+]
+
+[build]
+system = "meson"

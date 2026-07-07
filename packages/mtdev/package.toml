@@ -1,0 +1,14 @@
+[package]
+name = "mtdev"
+version = "1.1.7"
+description = "Multitouch Protocol Translation Library"
+
+[source]
+url = "http://bitmath.org/code/mtdev/mtdev-1.1.7.tar.gz"
+sha256 = "a55bd02a9af4dd266c0042ec608744fff3a017577614c057da09f1f4566ea32c"
+
+[dependencies]
+deps = []
+
+[build]
+system = "autotools"

@@ -1,0 +1,14 @@
+[package]
+name = "wayland-protocols"
+version = "1.49"
+description = "Wayland protocol XML definitions"
+
+[source]
+url = "https://gitlab.freedesktop.org/wayland/wayland-protocols/-/releases/1.49/downloads/wayland-protocols-1.49.tar.xz"
+sha256 = "ec4c8f74942d6dff7ace8b4ce4764f0ef9ff618a935d974ea77edee2ad240b14"
+
+[dependencies]
+deps = ["libxml"]
+
+[build]
+system = "meson"

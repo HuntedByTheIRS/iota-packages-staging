@@ -1,0 +1,14 @@
+[package]
+name = "rsync"
+version = "3.4.4"
+description = "Fast, versatile file copying tool"
+
+[source]
+url = "https://rsync.samba.org/ftp/rsync/rsync-3.4.4.tar.gz"
+sha256 = "bd88cf82fa653da32314fb229136407c5c90f80d1758d8f4b091767877d8fa96"
+
+[dependencies]
+deps = ["zlib"]
+
+[build]
+system = "autotools"

@@ -1,0 +1,14 @@
+[package]
+name = "attr"
+version = "2.6.0"
+description = "Extended attribute library"
+
+[source]
+url = "https://download.savannah.nongnu.org/releases/attr/attr-2.6.0.tar.xz"
+sha256 = "6c8a2148a7b85043b68492bce43316b0e2e214fc4e628c7ede078e76e216330b"
+
+[dependencies]
+deps = []
+
+[build]
+system = "autotools"

@@ -1,0 +1,23 @@
+[package]
+name = "scenefx"
+version = "0.5-git"
+description = "SceneFX — visual effects (rounded corners, shadows, blur) for wlroots compositors"
+
+[source]
+url = "https://github.com/wlrfx/scenefx/archive/refs/heads/master.tar.gz"
+sha256 = "561c3fdc5a1a639fa4fb4d880e8084c989719b89184a74b078a4fbdc2dee8b73"
+
+[dependencies]
+deps = [
+    "wlroots",
+    "wayland",
+    "wayland-protocols",
+    "libdrm",
+    "libxkbcommon",
+    "pixman",
+    "lcms2",
+    "mesa",
+]
+
+[build]
+system = "meson"

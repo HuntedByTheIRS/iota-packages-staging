@@ -1,0 +1,14 @@
+[package]
+name = "pipewire"
+version = "1.6.7"
+description = "Multimedia framework for Linux"
+
+[source]
+url = "https://gitlab.freedesktop.org/pipewire/pipewire/-/archive/1.6.7/pipewire-1.6.7.tar.gz"
+sha256 = "a618c0a159055e2443f638c5c9f4b904e6902b655c09a7ff84546fa2447aedf8"
+
+[dependencies]
+deps = ["alsa-lib","dbus","glib"]
+
+[build]
+system = "meson"

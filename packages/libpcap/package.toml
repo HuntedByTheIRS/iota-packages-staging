@@ -1,0 +1,14 @@
+[package]
+name = "libpcap"
+version = "1.10.6"
+description = "Portable packet capture library"
+
+[source]
+url = "https://www.tcpdump.org/release/libpcap-1.10.6.tar.xz"
+sha256 = "ec97d1206bdd19cb6bdd043eaa9f0037aa732262ec68e070fd7c7b5f834d5dfc"
+
+[dependencies]
+deps = ["flex", "bison"]
+
+[build]
+system = "autotools"

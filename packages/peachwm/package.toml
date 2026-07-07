@@ -1,0 +1,26 @@
+[package]
+name = "peachwm"
+version = "0.2"
+description = "Lightweight Wayland compositor based on wlroots with visual effects"
+
+[source]
+url = "https://github.com/HuntedByTheIRS/peachwm/archive/refs/heads/main.tar.gz"
+sha256 = "f460787389660c229162b2fe0349ebef2fd2b7aa42222685a0dbcb6918b86908"
+
+[dependencies]
+deps = [
+    "wlroots",
+    "scenefx",
+    "wayland",
+    "wayland-protocols",
+    "libdrm",
+    "libxkbcommon",
+    "libinput",
+    "lua",
+    "libxcb",
+    "libxcb-util",
+    "xcb-util-wm",
+]
+
+[build]
+system = "make"

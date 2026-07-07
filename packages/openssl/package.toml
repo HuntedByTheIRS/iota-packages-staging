@@ -1,0 +1,14 @@
+[package]
+name = "openssl"
+version = "3.4.1"
+description = "OpenSSL cryptography and SSL/TLS toolkit (provides libcrypto for SHA1)"
+
+[source]
+url = "https://github.com/openssl/openssl/releases/download/openssl-3.4.1/openssl-3.4.1.tar.gz"
+sha256 = "002a2d6b30b58bf4bea46c43bdd96365aaf8daa6c428782aa4feee06da197df3"
+
+[dependencies]
+deps = []
+
+[build]
+system = "make"

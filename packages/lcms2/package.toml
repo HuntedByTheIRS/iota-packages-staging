@@ -1,0 +1,14 @@
+[package]
+name = "lcms2"
+version = "2.19"
+description = "Little CMS 2 — a small, fast color management engine (liblcms2.so)"
+
+[source]
+url = "https://github.com/mm2/Little-CMS/releases/download/lcms2.19.1/lcms2-2.19.1.tar.gz"
+sha256 = "bfc54f7bab59fbc921012014a8032e4cba4abd46db47d46b76416a8c0b2815c8"
+
+[dependencies]
+deps = []
+
+[build]
+system = "autotools"

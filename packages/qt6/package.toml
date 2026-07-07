@@ -1,0 +1,14 @@
+[package]
+name = "qt6"
+version = "6.11.1"
+description = "Qt 6 C++ application framework"
+
+[source]
+url = "https://download.qt.io/official_releases/qt/6.11/6.11.1/single/qt-everywhere-src-6.11.1.tar.xz"
+sha256 = "252acef8c5ae68074d91cadba2ee4a83465051bbb970dd26e8f0daa0f3904e03"
+
+[dependencies]
+deps = ["cmake","ninja","openssl","zlib"]
+
+[build]
+system = "cmake"

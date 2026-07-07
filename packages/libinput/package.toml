@@ -1,0 +1,14 @@
+[package]
+name = "libinput"
+version = "1.27.1"
+description = "Input device management and event handling library"
+
+[source]
+url = "https://gitlab.freedesktop.org/libinput/libinput/-/archive/1.27.1/libinput-1.27.1.tar.gz"
+sha256 = "f6d623dd8230db337a6457645ebca96b9d4788a56385463bb14b8174910dfe23"
+
+[dependencies]
+deps = ["mtdev", "libevdev", "libudev-zero"]
+
+[build]
+system = "meson"

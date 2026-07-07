@@ -8,7 +8,7 @@ url = "https://mirrorservice.org/sites/sourceware.org/pub/gcc/releases/gcc-16.1.
 sha256 = "50efb4d94c3397aff3b0d61a5abd748b4dd31d9d3f2ab7be05b171d36a510f79"
 
 [dependencies]
-deps = [""]
+deps = ["binutils", "glibc", "gmp", "mpfr", "mpc", "isl", "zlib"]
 
 [build]
 system = "make"
