@@ -1,0 +1,14 @@
+[package]
+name = "binutils"
+version = "2.46.1"
+description = "GNU Binary Utilities (ld, as, objdump, readelf)"
+
+[source]
+url = "https://ftp.gnu.org/gnu/binutils/binutils-2.46.1.tar.xz"
+sha256 = "e127a709cba24c76de8936cb7083dd768f28cd37eb010492e2f19b71eb1294e4"
+
+[dependencies]
+deps = ["zlib","gettext"]
+
+[build]
+system = "autotools"

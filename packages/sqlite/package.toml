@@ -1,0 +1,14 @@
+[package]
+name = "sqlite"
+version = "3.53.3"
+description = "SQLite embedded database library"
+
+[source]
+url = "https://sqlite.org/2026/sqlite-autoconf-3530300.tar.gz"
+sha256 = "c917d7db16648ec95f714974ace5e5dcf46b7dc70e26600a0a102a3141125db0"
+
+[dependencies]
+deps = ["readline","zlib"]
+
+[build]
+system = "autotools"

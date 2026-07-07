@@ -1,0 +1,14 @@
+[package]
+name = "xcb-util-wm"
+version = "0.4.2"
+description = "XCB utility modules for ICCCM and EWMH (provides xcb-ewmh, xcb-icccm)"
+
+[source]
+url = "https://xcb.freedesktop.org/dist/xcb-util-wm-0.4.2.tar.xz"
+sha256 = "62c34e21d06264687faea7edbf63632c9f04d55e72114aa4a57bb95e4f888a0b"
+
+[dependencies]
+deps = ["libxcb", "xorgproto", "util-macros"]
+
+[build]
+system = "autotools"

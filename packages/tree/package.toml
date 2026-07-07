@@ -1,0 +1,14 @@
+[package]
+name = "tree"
+version = "2.3.2"
+description = "Recursive directory listing command"
+
+[source]
+url = "https://gitlab.com/OldManProgrammer/unix-tree/-/archive/2.3.2/unix-tree-2.3.2.tar.gz"
+sha256 = "513a53cbc42ca1f4ea06af2bab1f5283524a3848266b1d162416f8033afc4985"
+
+[dependencies]
+deps = []
+
+[build]
+system = "make"

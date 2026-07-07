@@ -1,0 +1,30 @@
+[package]
+name = "wlroots"
+version = "0.20.0"
+description = "Pluggable, composable, unopinionated modules for building a Wayland compositor"
+
+[source]
+url = "https://gitlab.freedesktop.org/wlroots/wlroots/-/archive/0.20.0/wlroots-0.20.0.tar.gz"
+sha256 = "e2d024916ed3bd011e058e78007655469e8c624fc338a28da610b087793b887b"
+
+[dependencies]
+deps = [
+    "wayland",
+    "wayland-protocols",
+    "libdrm",
+    "libxkbcommon",
+    "pixman",
+    "libinput",
+    "seatd",
+    "libdisplay-info",
+    "hwdata",
+    "libxcb",
+    "xcb-util-wm",
+    "xcb-util-errors",
+    "libudev-zero",
+    "xwayland",
+    "mesa",
+]
+
+[build]
+system = "meson"

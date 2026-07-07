@@ -1,0 +1,14 @@
+[package]
+name = "neovim"
+version = "0.12.4"
+description = "Hyperextensible Vim-based text editor"
+
+[source]
+url = "https://github.com/neovim/neovim/archive/refs/tags/v0.12.4.tar.gz"
+sha256 = "2727da95d2b8b809bc7c71e085452e47dfe1d8aa7cfaa15c68004e23f6f0a6dd"
+
+[dependencies]
+deps = []
+
+[build]
+system = "make"

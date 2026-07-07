@@ -1,0 +1,14 @@
+[package]
+name = "eudev"
+version = "3.2.14"
+description = "Standalone udev (non-systemd)"
+
+[source]
+url = "https://github.com/eudev-project/eudev/archive/refs/tags/v3.2.14.tar.gz"
+sha256 = "c340e6c51dfc5531ac0c0fa84a34b72162acf525f9023eb9cf4931b782c8f177"
+
+[dependencies]
+deps = ["kmod","util-linux","libcap"]
+
+[build]
+system = "autotools"

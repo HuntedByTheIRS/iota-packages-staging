@@ -1,0 +1,14 @@
+[package]
+name = "libssh2"
+version = "1.11.1"
+description = "SSH2 protocol library"
+
+[source]
+url = "https://libssh2.org/download/libssh2-1.11.1.tar.xz"
+sha256 = "9954cb54c4f548198a7cbebad248bdc87dd64bd26185708a294b2b50771e3769"
+
+[dependencies]
+deps = ["openssl","zlib"]
+
+[build]
+system = "autotools"

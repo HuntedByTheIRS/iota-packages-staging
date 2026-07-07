@@ -1,0 +1,14 @@
+[package]
+name = "procps-ng"
+version = "4.0.6"
+description = "System and process monitoring utilities (ps, top, free, kill, uptime)"
+
+[source]
+url = "https://sourceforge.net/projects/procps-ng/files/Production/procps-ng-4.0.6.tar.xz/download"
+sha256 = "67bea6fbc3a42a535a0230c9e891e5ddfb4d9d39422d46565a2990d1ace15216"
+
+[dependencies]
+deps = ["ncurses"]
+
+[build]
+system = "autotools"

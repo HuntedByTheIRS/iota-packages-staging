@@ -1,0 +1,14 @@
+[package]
+name = "nspr"
+version = "4.39"
+description = "Netscape Portable Runtime"
+
+[source]
+url = "https://ftp.mozilla.org/pub/nspr/releases/v4.39/src/nspr-4.39.tar.gz"
+sha256 = "bbd02ee87a55676063a63e5bc819e0227de2666b47307b2a0134414cdf42368e"
+
+[dependencies]
+deps = []
+
+[build]
+system = "autotools"

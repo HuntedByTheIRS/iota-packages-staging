@@ -1,0 +1,14 @@
+[package]
+name = "cmake"
+version = "4.3.3"
+description = "Cross-platform build system generator"
+
+[source]
+url = "https://github.com/Kitware/CMake/releases/download/v4.3.3/cmake-4.3.3.tar.gz"
+sha256 = "cba4bb7a44edf2877bb6f059932896383babe435b3a8c3b5df48b4aa41c9bb85"
+
+[dependencies]
+deps = ["openssl", "zlib", "ncurses"]
+
+[build]
+system = "make"

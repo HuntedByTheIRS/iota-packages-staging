@@ -1,0 +1,14 @@
+[package]
+name = "hwdata"
+version = "0.408"
+description = "Hardware identification and configuration data (pnp.ids, pci.ids, usb.ids)"
+
+[source]
+url = "https://github.com/vcrhonek/hwdata/archive/refs/tags/v0.408.tar.gz"
+sha256 = "ac7c34efc5941d5cbf739a8f7f6c84b1c2edea493fd3fca10906ef64d7afd690"
+
+[dependencies]
+deps = []
+
+[build]
+system = "meson"

@@ -1,0 +1,14 @@
+[package]
+name = "gdb"
+version = "17.2"
+description = "GNU Debugger"
+
+[source]
+url = "https://ftp.gnu.org/gnu/gdb/gdb-17.2.tar.xz"
+sha256 = "1c036c0d72e4b3d1fb5c94c88632add6f9d76f4d7c4d2ea793c12a9f19a3228c"
+
+[dependencies]
+deps = ["ncurses", "readline", "zlib", "expat", "python"]
+
+[build]
+system = "autotools"

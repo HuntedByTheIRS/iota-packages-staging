@@ -1,0 +1,14 @@
+[package]
+name = "fzf"
+version = "0.74.0"
+description = "Command-line fuzzy finder"
+
+[source]
+url = "https://github.com/junegunn/fzf/archive/refs/tags/v0.74.0.tar.gz"
+sha256 = "55ab5f2256edd8890f81d407b63d3a3e81cffe10e318cd196031dc85efdeb079"
+
+[dependencies]
+deps = ["golang"]
+
+[build]
+system = "go"

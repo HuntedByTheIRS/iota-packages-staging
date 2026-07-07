@@ -1,0 +1,26 @@
+[package]
+name = "mesa"
+version = "26.1.4"
+description = "Mesa 3D Graphics Library — minimal build providing EGL, GBM, GLESv2 via softpipe"
+
+[source]
+url = "https://archive.mesa3d.org/mesa-26.1.4.tar.xz"
+sha256 = "072705caa9adf4740f1489194b13e278ad959166863b5271fe423a86353c9ab6"
+
+[dependencies]
+deps = [
+    "meson",
+    "ninja",
+    "python",
+    "python-mako",
+    "python-pyyaml",
+    "bison",
+    "flex",
+    "expat",
+    "libdrm",
+    "zlib",
+    "libxml",
+]
+
+[build]
+system = "meson"
