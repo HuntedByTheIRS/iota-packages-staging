@@ -1,0 +1,14 @@
+[package]
+name = "concord"
+version = "2.3.2"
+description = "Feature rich Discord TUI client."
+
+[source]
+url = "https://github.com/chojs23/concord/releases/download/v2.3.2/source.tar.gz"
+sha256 = "f61d7819daddd882e0f17b08cb14c5a83fcf1576d57d6963938eb4c94b94c7f4"
+
+[dependencies]
+deps = [""]
+
+[build]
+system = "cargo"
