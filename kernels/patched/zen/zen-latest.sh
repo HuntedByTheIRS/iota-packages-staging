@@ -10,7 +10,8 @@ if [[ $1 == "start" ]]; then
 
   patch -p1 <"linux-v${version}-zen1.patch"
 elif [[ $1 == "build" ]]; then
-  echo 'build stub'
+  make -j4
 elif [[ $1 == "install" ]]; then
-  echo 'install stub'
+  make install_modules
+  make install
 fi
