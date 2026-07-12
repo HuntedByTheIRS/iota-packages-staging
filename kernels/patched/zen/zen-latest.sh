@@ -1,12 +1,3 @@
-git clone --branch linux-rolling-stable --single-branch --depth 1 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git || {
-  echo "git failed"
-  exit 1
-}
-cd linux || {
-  echo "Could not enter directory"
-  exit 1
-}
-
 version=$(make kernelversion)
 
 wget "https://github.com/zen-kernel/zen-kernel/releases/download/v${version}-zen1/linux-v${version}-zen1.patch.zst"
