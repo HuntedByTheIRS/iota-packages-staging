@@ -1,9 +1,8 @@
-if [[ $1 == "start" ]]; then
-  git clone --branch linux-rolling-stable --single-branch --depth 1 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git || echo "yo git failed"
-  cd linux || echo "wtf"
-elif [[ $1 == "build" ]]; then
-  make -j4
-elif [[ $1 == "install" ]]; then
-  make modules_install
-  make install
-fi
+#!/usr/bin/env bash
+# linux (mainline) — Linus Torvalds tree
+# Called via %EXTERNAL-SOURCES% when prometheus downloads and runs this script.
+# The %KERNEL_GIT% + %KERNEL-SOURCE% handles cloning in the normal pipeline.
+
+echo "linux mainline: all steps handled by prometheus pipeline"
+echo "  – git clone torvalds/linux.git (master)"
+echo "  – config: defconfig | build: make | install: modules_install + install"
