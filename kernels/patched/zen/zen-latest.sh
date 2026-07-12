@@ -1,9 +1,16 @@
-git clone --branch linux-rolling-stable --single-branch --depth 1 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git
-cd linux || exit 1
+if [[ $1 == "start" ]]; then
 
-version=$(make kernelversion)
+  git clone --branch linux-rolling-stable --single-branch --depth 1 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git
+  cd linux || exit 1
 
-wget "https://github.com/zen-kernel/zen-kernel/releases/download/v${version}-zen1/linux-v${version}-zen1.patch.zst"
-unzstd "linux-v${version}-zen1.patch.zst"
+  version=$(make kernelversion)
 
-patch -p1 <"linux-v${version}-zen1.patch"
+  wget "https://github.com/zen-kernel/zen-kernel/releases/download/v${version}-zen1/linux-v${version}-zen1.patch.zst"
+  unzstd "linux-v${version}-zen1.patch.zst"
+
+  patch -p1 <"linux-v${version}-zen1.patch"
+elif [[ $1 == "build" ]]; then
+  echo 'build stub'
+elif [[ $1 == "install" ]]; then
+  echo 'install stub'
+fi
